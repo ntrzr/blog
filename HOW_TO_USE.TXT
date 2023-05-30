@@ -1,0 +1,7 @@
+python -m venv env
+env\Scripts\activate
+pip install -r requirements.txt
+flask forge (ONLY IF U WANNA GEN RANDOM DATA)
+flask run
+
+--- 127.0.0.1:5000 ---
