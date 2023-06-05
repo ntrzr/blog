@@ -40,6 +40,16 @@ Logged-in users have the ability to create new blog posts. To create a post, fol
 5. Upon successful creation, you will be redirected to the main page, where your new post will be displayed.
 
 
+## Post Searching
+The blog page provides a search functionality that allows users to find specific posts based on keywords, tags, or categories. To search for a post, follow these steps:
+
+1. Locate the search bar on the blog page.
+2. Enter a keyword, tag, or category related to the post you are looking for.
+3. Press the "Enter" key or click the search button/icon.
+4. The blog page will display a list of posts that match your search query.
+5. Click on a post from the search results to view its full content and details.
+
+
 ## Post Deletion
 Users can delete their own blog posts. To delete a post, follow these steps:
 
@@ -56,3 +66,8 @@ Users can edit their own blog posts. To edit a post, follow these steps:
 2. Click on the edit icon or link associated with the post.
 3. Make the desired changes to the post title, content, or other fields.
 4. Save the changes
+
+
+
+## Authors
+Jakub Lacina, Adam Zarówny, Lukáš Lang
