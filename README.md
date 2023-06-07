@@ -1,11 +1,11 @@
 ## Blog Page Readme
 
 ## How to run
-1. Create a virtualenv named venv using `python -m venv venv`
-2. Connect to virtualenv using `venv\Scripts\activate` (Windows) or `source venv/bin/activate` (Linux)
+1. Create a venv using `python -m venv venv`
+2. Activate to venv using `venv\Scripts\activate` (Windows) or `source venv/bin/activate` (Linux)
 3. From the project folder, install packages using `pip install -r requirements.txt`
-4. Now environment is ready. Run it by `python .\blog_project\main.py`
-5. Also pip install these: `flask` `flask_bcrypt` `flask_login` `flask_sqlalchemy`
+4. pip install: `flask` `flask_bcrypt` `flask_login` `flask_sqlalchemy`
+5. Now environment is ready. Run it by `python .\blog_project\main.py`
 
 
 ## User Registration
@@ -27,7 +27,7 @@ If the provided information is correct, you will be redirected to the main page.
 
 
 ## Database Management
-The blog page utilizes an SQLite database to store user information and blog posts. The necessary database tables and fields are automatically created during the migration process described in the "Getting Started" section.
+The blog page utilizes an SQLite database to store user information and blog posts. The necessary database tables and fields are automatically created during the migration.
 
 
 ## Post Creation
@@ -35,16 +35,15 @@ Logged-in users have the ability to create new blog posts. To create a post, fol
 
 1. After logging in, navigate to the blog creation page.
 2. Fill out the required fields, such as title and content, in the blog post form.
-3. Optionally, add any relevant tags or categories.
 4. Click the "Create" button to publish your blog post.
 5. Upon successful creation, you will be redirected to the main page, where your new post will be displayed.
 
 
 ## Post Searching
-The blog page provides a search functionality that allows users to find specific posts based on keywords, tags, or categories. To search for a post, follow these steps:
+The blog page provides a search functionality that allows users to find specific posts based on their title.
 
 1. Locate the search bar on the blog page.
-2. Enter a keyword, tag, or category related to the post you are looking for.
+2. Enter a blog's title or at least a part of it.
 3. Press the "Enter" key or click the search button/icon.
 4. The blog page will display a list of posts that match your search query.
 5. Click on a post from the search results to view its full content and details.
@@ -64,10 +63,8 @@ Users can edit their own blog posts. To edit a post, follow these steps:
 
 1. Find the post you want to edit on the main page or your user profile.
 2. Click on the edit icon or link associated with the post.
-3. Make the desired changes to the post title, content, or other fields.
+3. Make the desired changes to the post title or content.
 4. Save the changes
 
-
-
 ## Authors
-Jakub Lacina, Adam Zarówny, Lukáš Lang
+Jakub Lacina{frontend}, Adam Zarówny{templating, backend}, Lukáš Lang{DB}
